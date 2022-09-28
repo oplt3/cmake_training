@@ -1,0 +1,10 @@
+^C:\USERS\PALUT\TRAINING\CMAKE_TRAINING\BUILD\CMAKEFILES\428B0EFFA356202E0DC254A6DF302155\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/palut/Training/cmake_training/cmake_training -BC:/Users/palut/Training/cmake_training/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/palut/Training/cmake_training/build/sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
