@@ -1,2 +1,3 @@
 C:/Users/palut/Training/cmake_training/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/palut/Training/cmake_training/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/palut/Training/cmake_training/build/app/CMakeFiles/myExe.dir
