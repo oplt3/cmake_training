@@ -17,6 +17,9 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "animals::@3df5be18c2b201969613"
+		},
+		{
 			"id" : "myExe::@5f5a17c01335469806cb"
 		},
 		{

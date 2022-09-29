@@ -36,11 +36,15 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "lib",
+					"childIndexes" : 
+					[
+						3
+					],
 					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
 					{
@@ -49,6 +53,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "lib"
+				},
+				{
+					"build" : "lib/animals",
+					"jsonFile" : "directory-lib.animals-Debug-16e69cf2cd42d80b7d98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/animals",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -59,14 +78,16 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "sample",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -75,7 +96,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-32b838b44a45cbd21a59.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-2f6202f904188fc4cf69.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -84,6 +105,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-Debug-d05cbd23be4ec66b7757.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "animals::@3df5be18c2b201969613",
+					"jsonFile" : "target-animals-Debug-0b946a9d6ce4ce33742a.json",
+					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
@@ -130,11 +158,15 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "lib",
+					"childIndexes" : 
+					[
+						3
+					],
 					"jsonFile" : "directory-lib-Release-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
 					{
@@ -143,6 +175,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "lib"
+				},
+				{
+					"build" : "lib/animals",
+					"jsonFile" : "directory-lib.animals-Release-16e69cf2cd42d80b7d98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/animals",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Release",
@@ -153,14 +200,16 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "sample",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -169,7 +218,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-32b838b44a45cbd21a59.json",
+					"jsonFile" : "target-ALL_BUILD-Release-2f6202f904188fc4cf69.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -178,6 +227,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-Release-d05cbd23be4ec66b7757.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "animals::@3df5be18c2b201969613",
+					"jsonFile" : "target-animals-Release-cd87ceee09ee0602a248.json",
+					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
@@ -224,11 +280,15 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "lib",
+					"childIndexes" : 
+					[
+						3
+					],
 					"jsonFile" : "directory-lib-MinSizeRel-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
 					{
@@ -237,6 +297,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "lib"
+				},
+				{
+					"build" : "lib/animals",
+					"jsonFile" : "directory-lib.animals-MinSizeRel-16e69cf2cd42d80b7d98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/animals",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "MinSizeRel",
@@ -247,14 +322,16 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "sample",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -263,7 +340,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-32b838b44a45cbd21a59.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2f6202f904188fc4cf69.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -272,6 +349,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d05cbd23be4ec66b7757.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "animals::@3df5be18c2b201969613",
+					"jsonFile" : "target-animals-MinSizeRel-d6f2b1270c3a4cc7adc8.json",
+					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
@@ -318,11 +402,15 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "lib",
+					"childIndexes" : 
+					[
+						3
+					],
 					"jsonFile" : "directory-lib-RelWithDebInfo-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
 					{
@@ -331,6 +419,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "lib"
+				},
+				{
+					"build" : "lib/animals",
+					"jsonFile" : "directory-lib.animals-RelWithDebInfo-16e69cf2cd42d80b7d98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "lib/animals",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "RelWithDebInfo",
@@ -341,14 +444,16 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "sample",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -357,7 +462,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-32b838b44a45cbd21a59.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2f6202f904188fc4cf69.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -366,6 +471,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d05cbd23be4ec66b7757.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "animals::@3df5be18c2b201969613",
+					"jsonFile" : "target-animals-RelWithDebInfo-625b07876ad36bc45673.json",
+					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
