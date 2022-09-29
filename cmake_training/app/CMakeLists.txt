@@ -13,6 +13,7 @@ file( GLOB_RECURSE source_list *.cpp )
 # *${CMAKE_CURRENT_SOURCE_DIR}* content is depending from which CMakeLists.txt we are
 # in our example: *${CMAKE_CURRENT_SOURCE_DIR}* will return the parent directory of the current CMakeLists.txt
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../lib)
 
 # creates an executable 
 # CMake allows to create 2 kind of target - target means output
@@ -21,3 +22,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 # Whatever the kind of output, you must define the target name. This name will be reuse in all other project:
 # e.g: *myExe* will be the name of our target
 add_executable( myExe ${header_list} ${source_list})
+
+# link librairies
+target_link_libraries(myExe animals)
