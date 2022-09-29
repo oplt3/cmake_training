@@ -35,13 +35,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
 				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -60,6 +66,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/palut/Training/cmake_training/cmake_training/lib/animals"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/palut/Training/cmake_training/cmake_training/lib/animals/../../extLib"
 				}
 			],
 			"language" : "CXX",

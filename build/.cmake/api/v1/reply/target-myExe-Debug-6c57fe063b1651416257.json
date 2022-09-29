@@ -83,6 +83,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "breeds::@b89fe5e656292280100e"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "animals::@3df5be18c2b201969613"
 		},
 		{
@@ -105,6 +109,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "..\\lib\\animals\\Debug\\animals.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\extLib\\breeds\\Debug\\breeds.lib",
 				"role" : "libraries"
 			},
 			{

@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C33E6EA9-4176-3BA2-8C38-246A04F7F92B}</Project>
       <Name>animals</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\palut\Training\cmake_training\build\extLib\breeds\breeds.vcxproj">
+      <Project>{319288C2-C2B3-3567-98A7-0409649392D6}</Project>
+      <Name>breeds</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\palut\Training\cmake_training\build\app\myExe.vcxproj">
       <Project>{BDEA6032-17FF-33B7-BE91-F812E0B33150}</Project>
       <Name>myExe</Name>

@@ -17,13 +17,16 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "breeds::@b89fe5e656292280100e"
+		},
+		{
+			"id" : "myExe::@5f5a17c01335469806cb"
+		},
+		{
 			"id" : "animals::@3df5be18c2b201969613"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "myExe::@5f5a17c01335469806cb"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",

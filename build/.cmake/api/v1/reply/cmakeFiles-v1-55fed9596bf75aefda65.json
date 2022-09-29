@@ -126,6 +126,12 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"path" : "extLib/CMakeLists.txt"
+		},
+		{
+			"path" : "extLib/breeds/CMakeLists.txt"
+		},
+		{
 			"path" : "app/CMakeLists.txt"
 		},
 		{

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "app/MinSizeRel/myExe.exe"
+			"path" : "app/Release/myExe.exe"
 		},
 		{
-			"path" : "app/MinSizeRel/myExe.pdb"
+			"path" : "app/Release/myExe.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD"
 				}
 			],
 			"includes" : 
@@ -83,6 +83,10 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "breeds::@b89fe5e656292280100e"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "animals::@3df5be18c2b201969613"
 		},
 		{
@@ -95,7 +99,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -104,7 +108,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\lib\\animals\\MinSizeRel\\animals.lib",
+				"fragment" : "..\\lib\\animals\\Release\\animals.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\extLib\\breeds\\Release\\breeds.lib",
 				"role" : "libraries"
 			},
 			{

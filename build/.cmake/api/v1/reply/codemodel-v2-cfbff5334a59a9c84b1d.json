@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -25,6 +26,36 @@
 					]
 				},
 				{
+					"build" : "extLib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-extLib-Debug-32b1957ada16407b1714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extLib"
+				},
+				{
+					"build" : "extLib/breeds",
+					"jsonFile" : "directory-extLib.breeds-Debug-c07c1501df520a81e060.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extLib/breeds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "app",
 					"jsonFile" : "directory-app-Debug-7ab44524cbd5ada90c6a.json",
 					"minimumCMakeVersion" : 
@@ -36,14 +67,14 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						3
+						5
 					],
 					"jsonFile" : "directory-lib-Debug-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
@@ -61,7 +92,7 @@
 					{
 						"string" : "3.18"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "lib/animals",
 					"targetIndexes" : 
@@ -79,7 +110,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					],
 					"name" : "sample",
 					"targetIndexes" : 
@@ -87,7 +120,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -96,7 +130,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-76f72b6dbddad17eca35.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-d79662f240cca349d4cf.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -108,16 +142,23 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 5,
 					"id" : "animals::@3df5be18c2b201969613",
-					"jsonFile" : "target-animals-Debug-0b946a9d6ce4ce33742a.json",
+					"jsonFile" : "target-animals-Debug-9432ffdda4eafac252b3.json",
 					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 2,
+					"id" : "breeds::@b89fe5e656292280100e",
+					"jsonFile" : "target-breeds-Debug-1eb87dff18ac5bd6c195.json",
+					"name" : "breeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "myExe::@5f5a17c01335469806cb",
-					"jsonFile" : "target-myExe-Debug-f5463f0192953029d9cc.json",
+					"jsonFile" : "target-myExe-Debug-6c57fe063b1651416257.json",
 					"name" : "myExe",
 					"projectIndex" : 0
 				}
@@ -131,7 +172,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -147,6 +189,36 @@
 					]
 				},
 				{
+					"build" : "extLib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-extLib-Release-32b1957ada16407b1714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extLib"
+				},
+				{
+					"build" : "extLib/breeds",
+					"jsonFile" : "directory-extLib.breeds-Release-c07c1501df520a81e060.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extLib/breeds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "app",
 					"jsonFile" : "directory-app-Release-7ab44524cbd5ada90c6a.json",
 					"minimumCMakeVersion" : 
@@ -158,14 +230,14 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						3
+						5
 					],
 					"jsonFile" : "directory-lib-Release-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
@@ -183,7 +255,7 @@
 					{
 						"string" : "3.18"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "lib/animals",
 					"targetIndexes" : 
@@ -201,7 +273,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					],
 					"name" : "sample",
 					"targetIndexes" : 
@@ -209,7 +283,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -218,7 +293,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-76f72b6dbddad17eca35.json",
+					"jsonFile" : "target-ALL_BUILD-Release-d79662f240cca349d4cf.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -230,16 +305,23 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 5,
 					"id" : "animals::@3df5be18c2b201969613",
-					"jsonFile" : "target-animals-Release-cd87ceee09ee0602a248.json",
+					"jsonFile" : "target-animals-Release-27cbf0ef8bf32ee86a1f.json",
 					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 2,
+					"id" : "breeds::@b89fe5e656292280100e",
+					"jsonFile" : "target-breeds-Release-eb76c73a0142491514ab.json",
+					"name" : "breeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "myExe::@5f5a17c01335469806cb",
-					"jsonFile" : "target-myExe-Release-2961097d1e01d0342718.json",
+					"jsonFile" : "target-myExe-Release-84b626f46c171cece186.json",
 					"name" : "myExe",
 					"projectIndex" : 0
 				}
@@ -253,7 +335,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -269,6 +352,36 @@
 					]
 				},
 				{
+					"build" : "extLib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-extLib-MinSizeRel-32b1957ada16407b1714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extLib"
+				},
+				{
+					"build" : "extLib/breeds",
+					"jsonFile" : "directory-extLib.breeds-MinSizeRel-c07c1501df520a81e060.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extLib/breeds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "app",
 					"jsonFile" : "directory-app-MinSizeRel-7ab44524cbd5ada90c6a.json",
 					"minimumCMakeVersion" : 
@@ -280,14 +393,14 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						3
+						5
 					],
 					"jsonFile" : "directory-lib-MinSizeRel-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
@@ -305,7 +418,7 @@
 					{
 						"string" : "3.18"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "lib/animals",
 					"targetIndexes" : 
@@ -323,7 +436,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					],
 					"name" : "sample",
 					"targetIndexes" : 
@@ -331,7 +446,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -340,7 +456,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-76f72b6dbddad17eca35.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d79662f240cca349d4cf.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -352,16 +468,23 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 5,
 					"id" : "animals::@3df5be18c2b201969613",
-					"jsonFile" : "target-animals-MinSizeRel-d6f2b1270c3a4cc7adc8.json",
+					"jsonFile" : "target-animals-MinSizeRel-a1379b05589767871e2a.json",
 					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 2,
+					"id" : "breeds::@b89fe5e656292280100e",
+					"jsonFile" : "target-breeds-MinSizeRel-f219381449cf4983c800.json",
+					"name" : "breeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "myExe::@5f5a17c01335469806cb",
-					"jsonFile" : "target-myExe-MinSizeRel-7adeaa23b010770e40d8.json",
+					"jsonFile" : "target-myExe-MinSizeRel-7b422a22cddd2bed7c74.json",
 					"name" : "myExe",
 					"projectIndex" : 0
 				}
@@ -375,7 +498,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -391,6 +515,36 @@
 					]
 				},
 				{
+					"build" : "extLib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-extLib-RelWithDebInfo-32b1957ada16407b1714.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extLib"
+				},
+				{
+					"build" : "extLib/breeds",
+					"jsonFile" : "directory-extLib.breeds-RelWithDebInfo-c07c1501df520a81e060.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extLib/breeds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
 					"build" : "app",
 					"jsonFile" : "directory-app-RelWithDebInfo-7ab44524cbd5ada90c6a.json",
 					"minimumCMakeVersion" : 
@@ -402,14 +556,14 @@
 					"source" : "app",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
 					"build" : "lib",
 					"childIndexes" : 
 					[
-						3
+						5
 					],
 					"jsonFile" : "directory-lib-RelWithDebInfo-e9069484d90298468a11.json",
 					"minimumCMakeVersion" : 
@@ -427,7 +581,7 @@
 					{
 						"string" : "3.18"
 					},
-					"parentIndex" : 2,
+					"parentIndex" : 4,
 					"projectIndex" : 0,
 					"source" : "lib/animals",
 					"targetIndexes" : 
@@ -445,7 +599,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					],
 					"name" : "sample",
 					"targetIndexes" : 
@@ -453,7 +609,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -462,7 +619,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-76f72b6dbddad17eca35.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d79662f240cca349d4cf.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -474,16 +631,23 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 5,
 					"id" : "animals::@3df5be18c2b201969613",
-					"jsonFile" : "target-animals-RelWithDebInfo-625b07876ad36bc45673.json",
+					"jsonFile" : "target-animals-RelWithDebInfo-1af2560018317f86b116.json",
 					"name" : "animals",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 2,
+					"id" : "breeds::@b89fe5e656292280100e",
+					"jsonFile" : "target-breeds-RelWithDebInfo-2463b3edfb1b378aa15b.json",
+					"name" : "breeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "myExe::@5f5a17c01335469806cb",
-					"jsonFile" : "target-myExe-RelWithDebInfo-00b4fa058a7b0c212cfa.json",
+					"jsonFile" : "target-myExe-RelWithDebInfo-709ad9b61c96db36c1f6.json",
 					"name" : "myExe",
 					"projectIndex" : 0
 				}

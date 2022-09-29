@@ -28,7 +28,7 @@ namespace animals
         //------------------------------------------------------------------------------------
         /*! Default constructor
          *///---------------------------------------------------------------------------------
-        explicit CDog(const std::string& p_Name="");
+        explicit CDog(const std::string& p_Name="", int p_Breed = 0);
 
         //------------------------------------------------------------------------------------
         /*! Copy constructor
@@ -59,11 +59,13 @@ namespace animals
 
         const std::string& GetName();
 
+        std::string GetBreed();
+
     protected:
 
     private:
         std::string m_Name;
-
+        int m_Breed;
     };
 
 } // animals
