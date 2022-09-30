@@ -132,6 +132,9 @@
 			"path" : "extLib/breeds/CMakeLists.txt"
 		},
 		{
+			"path" : "extLib/others/CMakeLists.txt"
+		},
+		{
 			"path" : "app/CMakeLists.txt"
 		},
 		{

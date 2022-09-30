@@ -185,6 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{BDEA6032-17FF-33B7-BE91-F812E0B33150}</Project>
       <Name>myExe</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\palut\Training\cmake_training\build\extLib\others\others.vcxproj">
+      <Project>{BA4731D8-6075-3526-A411-64AE2E4B1109}</Project>
+      <Name>others</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

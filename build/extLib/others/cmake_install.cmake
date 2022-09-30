@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/palut/Training/cmake_training/cmake_training/extLib
+# Install script for directory: C:/Users/palut/Training/cmake_training/cmake_training/extLib/others
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,15 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/palut/Training/cmake_training/build/extLib/breeds/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/palut/Training/cmake_training/build/extLib/others/cmake_install.cmake")
 endif()
 
