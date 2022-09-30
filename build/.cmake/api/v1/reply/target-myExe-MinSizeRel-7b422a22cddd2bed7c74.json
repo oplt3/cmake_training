@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "app/Release/myExe.exe"
+			"path" : "app/MinSizeRel/myExe.exe"
 		},
 		{
-			"path" : "app/Release/myExe.pdb"
+			"path" : "app/MinSizeRel/myExe.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
 				}
 			],
 			"includes" : 
@@ -82,15 +82,15 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "breeds::@b89fe5e656292280100e"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "animals::@3df5be18c2b201969613"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "myExe::@5f5a17c01335469806cb",
@@ -99,7 +99,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -108,12 +108,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\lib\\animals\\Release\\animals.lib",
+				"fragment" : "..\\lib\\animals\\MinSizeRel\\animals.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\extLib\\breeds\\Release\\breeds.lib",
+				"fragment" : "..\\extLib\\breeds\\MinSizeRel\\breeds.lib",
 				"role" : "libraries"
 			},
 			{

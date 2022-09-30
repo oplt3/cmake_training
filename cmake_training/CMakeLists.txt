@@ -12,3 +12,23 @@ add_subdirectory( lib )
 
 # if you set variable here, there will be ignored by subdirectory 
 # you should always define the variable you want to use in a sub project before calling its 'add_subdirectory'
+
+# The following code aims only to provide a comparaison between macro and function
+# Run CMake and look the console to see the results
+message( "" )
+message( "==============================================" )
+message( "Function vs. macro" )
+message( "==============================================" )
+include( ${CMAKE_CURRENT_SOURCE_DIR}/cmake/FunctionVsMacro.cmake )
+set( var "ABC" )
+message( "=== Main scope (intial state)   === var=${var}" )
+
+message( "" )
+message( "=== Call macro (Moo(\${var})===" )
+Moo( ${var} )
+message( "=== Main scope (after macro)    === var=${var}" )
+
+message( "" )
+message( "=== Call function ===" )
+Foo( ${var} )
+message( "=== Main scope (after function) === var=${var}" )

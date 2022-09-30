@@ -126,6 +126,9 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"path" : "cmake/FunctionVsMacro.cmake"
+		},
+		{
 			"path" : "extLib/CMakeLists.txt"
 		},
 		{
